@@ -18,3 +18,6 @@ def calculator():
             print("cannot calculate the square")
         else:
             print(f"sqrt({num}) = {math.sqrt(num)}") 
+    elif choice == "2" :
+        num = float(input("Enter a number to square: "))
+        print(f"{num}\u00B2 = {num ** 2}")
