@@ -14,4 +14,7 @@ def calculator():
             print("Invalid option,please try again.")
     if choice == '1' :
         num = float(input("Enter a number for square root"))
-        print(f"sqrt({num}) = {math.sqrt(num)}") 
+        if num < 0 :
+            print("cannot calculate the square")
+        else:
+            print(f"sqrt({num}) = {math.sqrt(num)}") 
