@@ -21,3 +21,8 @@ def calculator():
     elif choice == "2" :
         num = float(input("Enter a number to square: "))
         print(f"{num}\u00B2 = {num ** 2}")
+    elif choice == '3':
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number:"))
+        print(f"{a} + {b} = {a +b}")
+        
