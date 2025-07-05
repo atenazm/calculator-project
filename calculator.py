@@ -12,5 +12,6 @@ def calculator():
             break
         else:
             print("Invalid option,please try again.")
-if __name__ == "__main__" :
-    calculator()
+    if choice == '1' :
+        num = float(input("Enter a number for square root"))
+        print(f"sqrt({num}) = {math.sqrt(num)}") 
